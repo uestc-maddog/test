@@ -1,0 +1,14 @@
+..\OBJ\fontupd.o: ..\TEXT\fontupd.c
+..\OBJ\fontupd.o: ..\TEXT\fontupd.h
+..\OBJ\fontupd.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\fontupd.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\core_cm3.h
+..\OBJ\fontupd.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\stdint.h
+..\OBJ\fontupd.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\fontupd.o: ..\FATFS\src\ff.h
+..\OBJ\fontupd.o: ..\FATFS\src\integer.h
+..\OBJ\fontupd.o: ..\FATFS\src\ffconf.h
+..\OBJ\fontupd.o: ..\HARDWARE\FLASH\flash.h
+..\OBJ\fontupd.o: ..\SYSTEM\sys\sys.h
+..\OBJ\fontupd.o: ..\HARDWARE\LCD\lcd.h
+..\OBJ\fontupd.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\stdlib.h
+..\OBJ\fontupd.o: ..\MALLOC\malloc.h

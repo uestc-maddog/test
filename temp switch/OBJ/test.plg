@@ -1,0 +1,179 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\32实验\曾-毕业设计\软件\曾哥毕业设计（指定回复号码版） -控制温度开关\USER\test.uvproj
+Project File Date:  03/31/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=47530 RO-data=8150 RW-data=432 ZI-data=47552  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=47530 RO-data=8150 RW-data=432 ZI-data=47552  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\test.AXF" 
+Set JLink Project File to "G:\32实验\曾-毕业设计\软件\曾哥毕业设计（指定回复号码版） -控制温度开关\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+**JLink Warning: No matching core found.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+* JLink Info: Resetting target using RESET pin
+* JLink Info: Halting CPU core
+**JLink Warning: Received 0 as core Id.
+* JLink Info: Using DBGRQ to halt CPU
+* JLink Info: Resetting TRST in order to halt CPU
+* JLink Info: Resetting target using RESET pin
+* JLink Info: Halting CPU core
+**JLink Warning: Received 0 as core Id.
+* JLink Info: Using DBGRQ to halt CPU
+* JLink Info: Resetting TRST in order to halt CPU
+***JLink Error: Could not find supported CPU core on JTAG chain
+Bad JTAG communication: Write to IR: Expected 0x1, got 0x0 (TAP Command : 2) @ Off 0x5.
+compiling led.c...
+..\HARDWARE\LED\led.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=47530 RO-data=8150 RW-data=432 ZI-data=47552  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\test.AXF" 
+Set JLink Project File to "G:\32实验\曾-毕业设计\软件\曾哥毕业设计（指定回复号码版） -控制温度开关\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.332V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling sim900a.c...
+..\SIM900A\sim900a.c(190): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "u8 *"
+..\SIM900A\sim900a.c:                                           msgindex = my_itoa(Num_new);
+..\SIM900A\sim900a.c:                                                    ^
+..\SIM900A\sim900a.c(211): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+..\SIM900A\sim900a.c:                                                   if(strcmp(p, "0") == 0)          //短信发"0", 开
+..\SIM900A\sim900a.c:                                                             ^
+..\SIM900A\sim900a.c(216): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+..\SIM900A\sim900a.c:                                                   else if(strcmp(p, "1") == 0)     //短信发"1", 关
+..\SIM900A\sim900a.c:                                                                  ^
+..\SIM900A\sim900a.c(221): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+..\SIM900A\sim900a.c:                                                   else if(strcmp(p, "2") == 0)     //短信发"2", 回复当前温测系统的温度  
+..\SIM900A\sim900a.c:                                                                  ^
+..\SIM900A\sim900a.c(238): warning:  #111-D: statement is unreachable
+..\SIM900A\sim900a.c:           myfree(p); 
+..\SIM900A\sim900a.c:           ^
+..\SIM900A\sim900a.c(151): warning:  #550-D: variable "msgmaxnum" was set but never used
+..\SIM900A\sim900a.c:           u8 msgmaxnum=0;              //短信最大条数
+..\SIM900A\sim900a.c:              ^
+..\SIM900A\sim900a.c(429): warning:  #223-D: function "DS18B20_Get_Temp" declared implicitly
+..\SIM900A\sim900a.c:           temperature = DS18B20_Get_Temp();       
+..\SIM900A\sim900a.c:                         ^
+..\SIM900A\sim900a.c(459): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "u8 *"
+..\SIM900A\sim900a.c:           S1 = my_itoa(tem / 10);
+..\SIM900A\sim900a.c:              ^
+..\SIM900A\sim900a.c(460): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+..\SIM900A\sim900a.c:           strcat(S2, S1);
+..\SIM900A\sim900a.c:                      ^
+..\SIM900A\sim900a.c(471): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "u8 *"
+..\SIM900A\sim900a.c:           S1 = my_itoa(tem % 10);
+..\SIM900A\sim900a.c:              ^
+..\SIM900A\sim900a.c(472): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+..\SIM900A\sim900a.c:           strcat(S2, S1);
+..\SIM900A\sim900a.c:                      ^
+..\SIM900A\sim900a.c(474): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\SIM900A\sim900a.c:           strcpy(S1, "系统当前温度为");                                    //S1为  系统当前温度
+..\SIM900A\sim900a.c:                  ^
+..\SIM900A\sim900a.c(475): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\SIM900A\sim900a.c:           strcat(S1, S2);
+..\SIM900A\sim900a.c:                  ^
+..\SIM900A\sim900a.c: ..\SIM900A\sim900a.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=47530 RO-data=8150 RW-data=432 ZI-data=47552  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 13 Warning(s).
+Load "..\\OBJ\\test.AXF" 
+Set JLink Project File to "G:\32实验\曾-毕业设计\软件\曾哥毕业设计（指定回复号码版） -控制温度开关\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.332V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

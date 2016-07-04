@@ -1,0 +1,11 @@
+..\OBJ\usart2.o: ..\HARDWARE\USART2\usart2.c
+..\OBJ\usart2.o: ..\SYSTEM\delay\delay.h
+..\OBJ\usart2.o: ..\SYSTEM\sys\sys.h
+..\OBJ\usart2.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\usart2.o: D:\程序\KEIL\ARM\RV31\INC\core_cm3.h
+..\OBJ\usart2.o: D:\程序\KEIL\ARM\RV31\INC\stdint.h
+..\OBJ\usart2.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\usart2.o: ..\HARDWARE\USART2\usart2.h
+..\OBJ\usart2.o: D:\程序\KEIL\ARM\RV31\INC\stdarg.h
+..\OBJ\usart2.o: D:\程序\KEIL\ARM\RV31\INC\stdio.h
+..\OBJ\usart2.o: D:\程序\KEIL\ARM\RV31\INC\string.h

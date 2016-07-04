@@ -1,0 +1,13 @@
+..\OBJ\usmart_config.o: ..\USMART\usmart_config.c
+..\OBJ\usmart_config.o: ..\USMART\usmart.h
+..\OBJ\usmart_config.o: ..\USMART\usmart_str.h
+..\OBJ\usmart_config.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\usmart_config.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\core_cm3.h
+..\OBJ\usmart_config.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\stdint.h
+..\OBJ\usmart_config.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\usmart_config.o: ..\SYSTEM\delay\delay.h
+..\OBJ\usmart_config.o: ..\SYSTEM\sys\sys.h
+..\OBJ\usmart_config.o: ..\SYSTEM\usart\usart.h
+..\OBJ\usmart_config.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\stdio.h
+..\OBJ\usmart_config.o: ..\HARDWARE\FLASH\flash.h
+..\OBJ\usmart_config.o: ..\SIM900A\sim900a.h

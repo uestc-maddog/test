@@ -1,0 +1,10 @@
+..\OBJ\ds18b20.o: ..\HARDWARE\DS18B20\ds18b20.c
+..\OBJ\ds18b20.o: ..\HARDWARE\DS18B20\ds18b20.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\sys.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\ds18b20.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\core_cm3.h
+..\OBJ\ds18b20.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\stdint.h
+..\OBJ\ds18b20.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\ds18b20.o: ..\SYSTEM\delay\delay.h
+..\OBJ\ds18b20.o: ..\HARDWARE\LCD\lcd.h
+..\OBJ\ds18b20.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\stdlib.h

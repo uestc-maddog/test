@@ -1,0 +1,11 @@
+..\OBJ\mycc936.o: ..\FATFS\exfuns\mycc936.c
+..\OBJ\mycc936.o: ..\FATFS\src\ff.h
+..\OBJ\mycc936.o: ..\FATFS\src\integer.h
+..\OBJ\mycc936.o: ..\FATFS\src\ffconf.h
+..\OBJ\mycc936.o: ..\TEXT\fontupd.h
+..\OBJ\mycc936.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\mycc936.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\core_cm3.h
+..\OBJ\mycc936.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\stdint.h
+..\OBJ\mycc936.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\mycc936.o: ..\HARDWARE\FLASH\flash.h
+..\OBJ\mycc936.o: ..\SYSTEM\sys\sys.h

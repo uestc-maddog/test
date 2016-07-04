@@ -1,0 +1,15 @@
+..\OBJ\exfuns.o: ..\FATFS\exfuns\exfuns.c
+..\OBJ\exfuns.o: D:\程序\KEIL\ARM\RV31\INC\string.h
+..\OBJ\exfuns.o: ..\FATFS\exfuns\exfuns.h
+..\OBJ\exfuns.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\exfuns.o: D:\程序\KEIL\ARM\RV31\INC\core_cm3.h
+..\OBJ\exfuns.o: D:\程序\KEIL\ARM\RV31\INC\stdint.h
+..\OBJ\exfuns.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\exfuns.o: ..\FATFS\src\ff.h
+..\OBJ\exfuns.o: ..\FATFS\src\integer.h
+..\OBJ\exfuns.o: ..\FATFS\src\ffconf.h
+..\OBJ\exfuns.o: ..\FATFS\exfuns\fattester.h
+..\OBJ\exfuns.o: ..\MALLOC\malloc.h
+..\OBJ\exfuns.o: ..\SYSTEM\usart\usart.h
+..\OBJ\exfuns.o: ..\SYSTEM\sys\sys.h
+..\OBJ\exfuns.o: D:\程序\KEIL\ARM\RV31\INC\stdio.h

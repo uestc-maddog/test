@@ -1,0 +1,9 @@
+..\OBJ\24cxx.o: ..\HARDWARE\24CXX\24cxx.c
+..\OBJ\24cxx.o: ..\HARDWARE\24CXX\24cxx.h
+..\OBJ\24cxx.o: ..\HARDWARE\24CXX\myiic.h
+..\OBJ\24cxx.o: ..\SYSTEM\sys\sys.h
+..\OBJ\24cxx.o: ..\SYSTEM\sys\stm32f10x.h
+..\OBJ\24cxx.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\core_cm3.h
+..\OBJ\24cxx.o: D:\³ÌÐò\KEIL\ARM\RV31\INC\stdint.h
+..\OBJ\24cxx.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\OBJ\24cxx.o: ..\SYSTEM\delay\delay.h
